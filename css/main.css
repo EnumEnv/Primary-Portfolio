@@ -132,6 +132,11 @@ li {
    margin-left: -0.24rem;
 }
 
+.accomplishment {
+   font-size: 1rem;
+   color: rgb(208, 255, 208);
+}
+
 /* Footer */
 .footer {
    display: flex;
