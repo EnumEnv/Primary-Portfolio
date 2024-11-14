@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+   --bg-color: rgb(14, 17, 24);
+   --main-font: "JetBrains Mono", sans-serif;
+   --default-text-color: white;
+   --default-border-color: rgb(111, 124, 156);
+   --h4-color: rgb(113, 210, 255);
+   --tertiary-button-hover-color: rgb(176, 143, 255);
+   --arrow-primary-color: rgb(156, 186, 252);
+   --secondary-color: rgb(149, 155, 172);
+   --text-shadow-typeOne: 0 0 10px #3e4a61, 0 0 20px #7f6ca1, 0 0 30px #626f8b,
+   0 0 40px #51587a, 0 0 50px #5e6288, 0 0 60px #526e83, 0 0 70px #4f4674;
+   --experience-preview-textShadow: 0 0 10px #1f2736, 0 0 20px #4f3975, 0 0 30px #1f2a42,
+   0 0 40px #2d3457, 0 0 50px #292c4e, 0 0 60px #1c384d, 0 0 70px #1f3047;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: var(--main-font);
+   color: var(--default-text-color);
+   background: var(--bg-color);
+}

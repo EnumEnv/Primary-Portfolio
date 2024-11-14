@@ -1,0 +1,315 @@
+/* Default Classes */
+button {
+   font-family: var(--main-font);
+   background: none;
+   border-color: white;
+   color: var(--default-text-color);
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+p {
+   font-size: 0.85rem;
+}
+
+h4 {
+   padding-top: 0rem;
+   margin-top: -1rem;
+   color: var(--h4-color);
+}
+
+li {
+   list-style: outside;
+   color: var(--arrow-primary-color);
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+   background-color: none;
+}
+
+::-webkit-scrollbar-track {
+   background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: none;
+}
+
+/* Contact */
+.contact {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 5rem;
+}
+
+.contact-item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-item p {
+   font-size: 1rem;
+}
+
+.contact-item .iconSvg {
+   margin-right: 0.5rem;
+   margin-top: 0.5%;
+}
+
+/* Header */
+.header {
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 0.5rem;
+   padding-top: 0.5rem;
+   border: 0.05rem var(--default-border-color);
+   border-style: solid;
+   justify-content: center;
+   gap: 1.5rem;
+}
+
+#flexHeader {
+   display: flex;
+}
+
+/* Tertiary Button */
+.tertiaryButton {
+   border: none;
+   color: var(--default-text-color);
+   transition: all 0.35s;
+}
+
+.tertiaryButton:hover {
+   text-decoration: underline;
+   color: var(--tertiary-button-hover-color);
+   text-shadow: var(--text-shadow-typeOne);
+   transition: all 0.35s;
+}
+
+.tertiaryButton:active {
+   text-decoration: underline;
+   color: var(--tertiary-button-hover-color);
+   text-shadow: var(--text-shadow-typeOne);
+   transition: all 0.35s;
+}
+
+.tertiaryButton:focus {
+   text-decoration: underline;
+   color: var(--tertiary-button-hover-color);
+   text-shadow: var(--text-shadow-typeOne);
+   transition: all 0.35s;
+}
+
+/* Previews */
+#defaultPreview {
+   position: relative;
+   border-style: solid;
+   border-left: none;
+   border-right: none;
+   border-bottom-style: dashed;
+   border-top-style: dashed;
+   border-color: var(--default-border-color);
+   border-width: 0.05rem;
+   margin-top: 0.5rem;
+}
+
+#defaultPreview p {
+   padding-left: 3.9rem;
+   padding-right: 3.9rem;
+}
+
+.experience-preview {
+   text-shadow: var(--experience-preview-textShadow);
+}
+
+/* Specifics */
+.demoIcon {
+   margin-left: -0.24rem;
+}
+
+/* Footer */
+.footer {
+   display: flex;
+   margin-top: 0.5rem;
+   border-width: 0.05rem;
+   border-style: solid;
+   border-color: var(--default-border-color);
+   border-left: none;
+   border-right: none;
+   justify-content: center;
+}
+
+.footerItem {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footerItem h2 {
+   font-size: 1.2rem;
+   color: rgb(159, 165, 182);
+}
+
+/* Card */
+.card {
+   position: relative;
+   padding-left: 6rem;
+   padding-right: 6rem;
+   border-style: solid;
+   border-width: 0.05rem;
+   border-color: var(--default-border-color);
+   margin-bottom: 0.5rem;
+}
+
+.card h4 {
+   text-shadow: var(--text-shadow-typeOne);
+}
+
+.bracketsSvg {
+   position: absolute;
+   margin-left: -4.7rem;
+   margin-top: 0.9rem;
+}
+
+/* Tech Preview */
+.techFlexList {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 0rem 2rem;
+}
+
+.techFlexItem {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+}
+
+.techFlexItem i {
+   font-size: 1.5rem !important;
+}
+
+.techFlexItem p {
+   padding: 0 !important;
+   margin-left: 0.5rem !important;
+}
+
+.techFlexList:first-child {
+   margin-left: 1rem !important;
+}
+
+/* Aesthetics */
+.verticalLine {
+   position: relative;
+   margin-top: -0.7rem;
+   margin-left: -1rem;
+   margin-bottom: 0.25rem;
+   padding-top: 0.8rem;
+   width: 0.125rem;
+   height: 5rem;
+   background: linear-gradient(
+      to bottom,
+      transparent,
+      var(--arrow-primary-color),
+      transparent
+   );
+   border-radius: 20rem;
+}
+
+/* Projects Preview */
+.projectsFlexList {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 0rem 2rem;
+}
+
+.project {
+   display: relative;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   padding: 1.5rem;
+   border-style: solid;
+   border-color: var(--default-border-color);
+   border-width: 0.05rem;
+}
+
+.project img {
+   position: absolute;
+}
+
+.project button {
+   position: relative;
+}
+
+.project button div {
+   position: absolute;
+   left: 0.8rem;
+   top: 0.25rem;
+}
+
+.project h2 {
+   padding: 0;
+   margin: 0;
+   font-size: 1.35rem;
+}
+
+.project p {
+   padding: 0 !important;
+   padding-bottom: 0.4rem !important;
+   max-width: 500px;
+   text-align: left;
+   overflow-wrap: break-word;
+}
+
+.projectButtons {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+
+.project h5 {
+   padding: 0;
+   margin: 0;
+   color: var(--secondary-color);
+   margin-top: 0.45rem;
+   margin-bottom: 0.5rem;
+}
+
+/* Button Primary */
+.primaryButton {
+   border-style: groove;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-top: 0.25rem;
+   padding-bottom: 0.25rem;
+   border-color: var(--default-border-color);
+   border-width: 0.05rem;
+   transition: all 0.25s ease-out;
+}
+
+.primaryButton:hover {
+   border-color: white;
+   color: black;
+   background-color: white;
+   transition: all 0.2s ease-in;
+}
+
+/* Keyframes */
+/* Media Queries */
+@media only screen and (max-width: 620px) {
+   h4 {
+      font-size: 0.7rem;
+   }
+}
